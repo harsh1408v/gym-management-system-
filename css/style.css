@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+/* font-family: "Potta One", system-ui; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Montserrat", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+/* font-family: "Lexend", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+/* font-family: "Cutive"; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Product Sans;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+#nav {
+    height: 18vh;
+    width: 100vw;
+    padding: 35px 55px;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+}
+
+
+#nav-left h4{
+    font-size: 4.2vh;
+    font-family: "Potta One";
+    color: #fff;
+    font-weight: 400;
+}
+
+#nav:hover h4,img,button{
+    cursor: pointer;
+}
+
+#nav-left img {
+    height: 6.4vh;
+    width: 100%;
+}
+
+#nav-right {
+    /* background-color: aqua; */
+    gap: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#nav-right h4 {
+    margin: 10px 18px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2vh;
+}
+
+.hover-button {
+    background-image:  linear-gradient(to right, #129C00 0%, rgb(154, 190, 35)  51%, #129C00  100%);
+    margin-left: 30px;
+    padding: 12px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+.hover-button a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.hover-button:hover {
+    background-position: right center;
+    color: #fff;
+    box-shadow: 0 0 30px 0 #129C00;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -5;
+}
+
+#main {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.37);
+    overflow: hidden;
+}
+
+#page-1{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+}
+
+#page-1 h1, h2, h4{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#page-1 h1{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Montserrat";
+}
+/* #page-1 h1::before{
+    content: "Kabila Gym&Fitness";
+    color: black;
+    -webkit-text-stroke: 2px #26a0da;
+    position: absolute;
+    top: -3px;
+    left: -4px;
+    z-index: -1;
+    
+} */
+
+#page-1 h2{
+    font-size: 3.5vh;
+    font-family: "Montserrat";
+}
+
+#page-1 h4{
+    font-size: 1.8vh;
+    margin-top: 8px;
+}
+
+
